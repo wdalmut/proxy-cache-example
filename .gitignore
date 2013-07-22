@@ -1,0 +1,6 @@
+vendor
+*.phar
+web/apc.php
+*.sw*
+report
+tags

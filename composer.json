@@ -1,0 +1,17 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/wdalmut/upcloo-web-framework.git"
+        }
+    ],
+    "require": {
+        "upcloo/micro-framework": "dev-master",
+        "zendframework/zend-cache": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "My\\": "src/"
+        }
+    }
+}
