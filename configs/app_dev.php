@@ -17,7 +17,7 @@ return array(
                     "say_hello" => array(
                         "type" => "Segment",
                         "options" => array(
-                            "route" => "/:param[/:param2]"
+                            "route" => ":param[/:param2]"
                         )
                     )
                 )
