@@ -41,8 +41,9 @@ class ...
 ```
 
 So? In which way we can store the computed data into the caching system?
-In our project we have the DiCs or our service locator.
+In our project we have a DiC or our service locator.
 Those components give to the executor, not the real object but its proxy.
+
 ```
 "services" => array(
     "factories" => array(
@@ -66,7 +67,7 @@ Those components give to the executor, not the real object but its proxy.
 The router tries to retrieve the `exampleController` alias from the ServiceManager and
 selects and resolves the alias.
 
-During your development or in a controller environment you can use the common
+During your development or in a controlled environment you can use the common
 version:
 
 ```
